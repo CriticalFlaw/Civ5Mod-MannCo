@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/24/2020 2:53:17 PM -->
+<GameData>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_MANNCO</Type>
+			<PrimaryColor>PLAYER_COLOR_MANNCO_PRIMARY</PrimaryColor>
+			<SecondaryColor>PLAYER_COLOR_MANNCO_SECONDARY</SecondaryColor>
+			<TextColor>PLAYER_COLOR_MANNCO_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Colors>
+		<Row>
+			<Type>PLAYER_COLOR_MANNCO_PRIMARY</Type>
+			<Red>0.945</Red>
+			<Green>0.596</Green>
+			<Blue>0.282</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>PLAYER_COLOR_MANNCO_SECONDARY</Type>
+			<Red>0.749</Red>
+			<Green>0.643</Green>
+			<Blue>0.537</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>PLAYER_COLOR_MANNCO_TEXT</Type>
+			<Red>1.0</Red>
+			<Green>1.0</Green>
+			<Blue>1.0</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+</GameData>
