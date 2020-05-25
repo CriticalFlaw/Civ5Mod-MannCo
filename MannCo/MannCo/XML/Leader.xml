@@ -8,7 +8,7 @@
 			<Description>TXT_KEY_LEADER_SAXTON</Description>
 			<Civilopedia>TXT_KEY_LEADER_SAXTON_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_LEADER_SAXTON_PEDIA</CivilopediaTag>
-			<ArtDefineTag>Washington_Scene.xml</ArtDefineTag> <!--TO-DO-->
+			<ArtDefineTag>Saxton_Scene.xml</ArtDefineTag>
 			<VictoryCompetitiveness>4</VictoryCompetitiveness>
 			<WonderCompetitiveness>3</WonderCompetitiveness>
 			<MinorCivCompetitiveness>5</MinorCivCompetitiveness>
@@ -24,8 +24,8 @@
 			<Forgiveness>7</Forgiveness>
 			<Chattiness>5</Chattiness>
 			<Meanness>4</Meanness>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>LEADER_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>CIV_MANNCO_ICON_ATLAS</IconAtlas>
 		</Row>
 	</Leaders>
 
@@ -33,7 +33,7 @@
 	<Leader_Traits>
 		<Row>
 			<LeaderType>LEADER_SAXTON</LeaderType>
-			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
+			<TraitType>TRAIT_MANNCONOMY</TraitType>
 		</Row>
 	</Leader_Traits>
 	

@@ -2,121 +2,10 @@
 <!-- Created by ModBuddy on 5/24/2020 5:16:36 PM -->
 <GameData>
 	<!--Core Definitions-->
-	<Units>
-		<Row>
-			<Type>UNIT_SAXTON_ROBOT</Type>
-			<Description>TXT_KEY_UNIT_MANNCO_ROBOT_DESC</Description>
-			<Civilopedia>TXT_KEY_UNIT_MANNCO_ROBOT_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_MANNCO_ROBOT_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_MANNCO_ROBOT_HELP</Help>
-			<Requirements></Requirements>
-			<Combat>24</Combat>
-			<RangedCombat>0</RangedCombat>
-			<Cost>150</Cost>
-			<FaithCost>300</FaithCost>
-			<RequiresFaithPurchaseEnabled>1</RequiresFaithPurchaseEnabled>
-			<Moves>2</Moves>
-			<Immobile>0</Immobile>
-			<Range>0</Range>
-			<BaseSightRange>2</BaseSightRange>
-			<Class>UNITCLASS_MUSKETMAN</Class>
-			<Special></Special>
-			<Capture></Capture>
-			<CombatClass>UNITCOMBAT_GUN</CombatClass>
-			<Domain>DOMAIN_LAND</Domain>
-			<CivilianAttackPriority></CivilianAttackPriority>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
-			<Food>0</Food>
-			<NoBadGoodies>0</NoBadGoodies>
-			<RivalTerritory>0</RivalTerritory>
-			<MilitarySupport>1</MilitarySupport>
-			<MilitaryProduction>1</MilitaryProduction>
-			<Pillage>1</Pillage>
-			<PillagePrereqTech></PillagePrereqTech>
-			<Found>0</Found>
-			<FoundAbroad>0</FoundAbroad>
-			<CultureBombRadius>0</CultureBombRadius>
-			<GoldenAgeTurns>0</GoldenAgeTurns>
-			<FreePolicies>0</FreePolicies>
-			<OneShotTourism>0</OneShotTourism>
-			<OneShotTourismPercentOthers>0</OneShotTourismPercentOthers>
-			<IgnoreBuildingDefense>1</IgnoreBuildingDefense>
-			<PrereqResources>0</PrereqResources>
-			<Mechanized>0</Mechanized>
-			<Suicide>0</Suicide>
-			<CaptureWhileEmbarked>0</CaptureWhileEmbarked>
-			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
-			<HurryCostModifier>0</HurryCostModifier>
-			<AdvancedStartCost>25</AdvancedStartCost>
-			<MinAreaSize>-1</MinAreaSize>
-			<AirInterceptRange>0</AirInterceptRange>
-			<AirUnitCap>0</AirUnitCap>
-			<NukeDamageLevel>-1</NukeDamageLevel>
-			<WorkRate>0</WorkRate>
-			<NumFreeTechs>0</NumFreeTechs>
-			<BaseBeakersTurnsToCount>0</BaseBeakersTurnsToCount>
-			<BaseCultureTurnsToCount>0</BaseCultureTurnsToCount>
-			<RushBuilding>0</RushBuilding>
-			<BaseHurry>0</BaseHurry>
-			<HurryMultiplier>0</HurryMultiplier>
-			<BaseGold>0</BaseGold>
-			<NumGoldPerEra>0</NumGoldPerEra>
-			<SpreadReligion>0</SpreadReligion>
-			<RemoveHeresy>0</RemoveHeresy>
-			<ReligionSpreads>0</ReligionSpreads>
-			<ReligiousStrength>0</ReligiousStrength>
-			<FoundReligion>0</FoundReligion>
-			<RequiresEnhancedReligion>0</RequiresEnhancedReligion>
-			<ProhibitsSpread>0</ProhibitsSpread>
-			<CanBuyCityState>0</CanBuyCityState>
-			<CombatLimit>100</CombatLimit>
-			<RangeAttackOnlyInDomain>0</RangeAttackOnlyInDomain>
-			<RangeAttackIgnoreLOS>0</RangeAttackIgnoreLOS>
-			<Trade>0</Trade>
-			<NumExoticGoods>0</NumExoticGoods>
-			<RangedCombatLimit>0</RangedCombatLimit>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<SpecialCargo></SpecialCargo>
-			<DomainCargo></DomainCargo>
-			<Conscription>4</Conscription>
-			<ExtraMaintenanceCost>0</ExtraMaintenanceCost>
-			<NoMaintenance>0</NoMaintenance>
-			<Unhappiness>0</Unhappiness>
-			<UnitArtInfo>ART_DEF_UNIT_U_AMERICAN_MINUTEMAN</UnitArtInfo>
-			<UnitArtInfoCulturalVariation>0</UnitArtInfoCulturalVariation>
-			<UnitArtInfoEraVariation>0</UnitArtInfoEraVariation>
-			<ProjectPrereq></ProjectPrereq>
-			<SpaceshipProject></SpaceshipProject>
-			<LeaderPromotion></LeaderPromotion>
-			<LeaderExperience>0</LeaderExperience>
-			<DontShowYields>0</DontShowYields>
-			<ShowInPedia>1</ShowInPedia>
-			<MoveRate>BIPED</MoveRate>
-			<UnitFlagIconOffset>38</UnitFlagIconOffset>
-			<PortraitIndex>39</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-			<UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
-		</Row>
-	</Units>
-
+	<!--<Units>-->
+	
 	<!--Unit AI Types-->
-	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_SAXTON_ROBOT</UnitType>
-			<UnitAIType>UNITAI_ATTACK</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SAXTON_ROBOT</UnitType>
-			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SAXTON_ROBOT</UnitType>
-			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
-		</Row>
-	</Unit_AITypes>
+	<!--<Unit_AITypes>-->
 
 	<!--Unit Buildings-->
 	<!--<Unit_Buildings>-->
@@ -131,43 +20,13 @@
 	<!--<Unit_Builds>-->
 
 	<!--Class Upgrades-->
-	<Unit_ClassUpgrades>
-		<Row>
-			<UnitType>UNIT_SAXTON_ROBOT</UnitType>
-			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
-		</Row>
-	</Unit_ClassUpgrades>
+	<!--<Unit_ClassUpgrades>-->
 	
 	<!--Free Unit Promotions-->
-	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_SAXTON_ROBOT</UnitType>
-			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SAXTON_ROBOT</UnitType>
-			<PromotionType>PROMOTION_DRILL_1</PromotionType>
-		</Row>
-	</Unit_FreePromotions>
+	<!--<Unit_FreePromotions>-->
 	
 	<!--Free Flavours-->
-	<Unit_Flavors>
-		<Row>
-			<UnitType>UNIT_SAXTON_ROBOT</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SAXTON_ROBOT</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SAXTON_ROBOT</UnitType>
-			<FlavorType>FLAVOR_RECON</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
-	</Unit_Flavors>
+	<!--<Unit_Flavors>-->
 
 	<!--Great Person-->
 	<!--<Unit_GreatPersons>-->
@@ -194,11 +53,5 @@
 	<!--<UnitPromotions_CivilianUnitType>-->
 
 	<!--Unit Scripts-->
-	<UnitGameplay2DScripts>
-		<Row>
-			<UnitType>UNIT_SAXTON_ROBOT</UnitType>
-			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
-			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
-		</Row>
-	</UnitGameplay2DScripts>
+	<!--<UnitGameplay2DScripts>-->
 </GameData>

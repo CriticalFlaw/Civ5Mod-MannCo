@@ -12,10 +12,16 @@
 		<Row Tag="TXT_KEY_CIV_MANNCO_DESC_SHORT">
 			<Text>Mann Co.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV_MANNCO_DOM_TEXT">
-			<Text>Mann Co.</Text>
+		<Row Tag="TXT_KEY_CIV_MANNCO_PEDIA_HEADER1">
+			<Text>History</Text>
 		</Row>
-
+		<Row Tag="TXT_KEY_CIV_MANNCO_PEDIA_TEXT1">
+			<Text>Mann Co. is a multinational division of TF Industries with headquarters in the Badlands, near Teufort, New Mexico. In the Badlands area alone, the company operates over 300 plants, office buildings, warehouses and outlet malls.The company was originally incorporated in the United States as Mann and Sons Munitions Concern by the arms-dealer Zepheniah Mann, who co-managed the firm with his brother, Silas Mann. Upon his death in 1850, Zepheniah Mann bequeathed ownership of Mann Co. to close friend and hunter Barnabas Hale. The company was subsequently owned and operated by three generations of Hales.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_MANNCO_DOM">
+			<Text>Mann Co. is a multinational division of TF Industries with headquarters in the Badlands, near Teufort, New Mexico. In the Badlands area alone, the company operates over 300 plants, office buildings, warehouses and outlet malls.The company was originally incorporated in the United States as Mann and Sons Munitions Concern by the arms-dealer Zepheniah Mann, who co-managed the firm with his brother, Silas Mann. Upon his death in 1850, Zepheniah Mann bequeathed ownership of Mann Co. to close friend and hunter Barnabas Hale. The company was subsequently owned and operated by three generations of Hales.</Text>
+		</Row>
+		
 		<!--Leader-->
 		<Row Tag="TXT_KEY_LEADER_SAXTON">
 			<Text>Saxton Hale</Text>
@@ -212,28 +218,37 @@
 		</Row>
 		
 		<!--Traits-->
-		<Row Tag="TXT_KEY_TRAIT_RIVER_EXPANSION_SHORT">
-			<Text>Manifest Destiny</Text>
+		<Row Tag="TXT_KEY_TRAIT_MANNCONOMY">
+			<Text>Mann-Conomy</Text>
 		</Row>
-		<Row Tag="TXT_KEY_TRAIT_RIVER_EXPANSION">
-			<Text>All land military units have +1 sight. 50% discount when purchasing tiles.</Text>
+		<Row Tag="TXT_KEY_TRAIT_MANNCONOMY_DESC">
+			<Text>Strategic Resources provide +3 [ICON_GOLD] Gold and Iron, Coal and Oil Resources provide double quantity.</Text>
 		</Row>
 		
-		<!--Units-->
-		<Row Tag="TXT_KEY_UNIT_MANNCO_ROBOT">
-			<Text>Robot</Text>
+		<!--Buildings-->
+		<Row Tag="TXT_KEY_BUILDING_MANNCO_STORE_DESC">
+			<Text>Mann Co. Store</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_MANNCO_ROBOT_DESC">
-			<Text><!-- Add Description text here --></Text>
+		<Row Tag="TXT_KEY_BUILDING_MANNCO_STORE_HELP">
+			<Text>Mann Co. Store HELP</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_MANNCO_ROBOT_PEDIA">
-			<Text><!-- Add Civilopedia text here --></Text>
+		<Row Tag="TXT_KEY_BUILDING_MANNCO_STORE_STRATEGY">
+			<Text>Mann Co. Store STRATEGY</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_MANNCO_ROBOT_STRATEGY">
-			<Text><!-- Add Strategy text here --></Text>
+		<Row Tag="TXT_KEY_BUILDING_MANNCO_STORE_TEXT">
+			<Text>Mann Co. Store TEXT</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_MANNCO_ROBOT_HELP">
-			<Text><!-- Add Help text here --></Text>
+		<Row Tag="TXT_KEY_BUILDING_MANNCO_MANOR_DESC">
+			<Text>Mann Manor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MANNCO_MANOR_HELP">
+			<Text>Mann Manor HELP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MANNCO_MANOR_STRATEGY">
+			<Text>Mann Manor STRATEGY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MANNCO_MANOR_TEXT">
+			<Text>Mann Manor TEXT</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

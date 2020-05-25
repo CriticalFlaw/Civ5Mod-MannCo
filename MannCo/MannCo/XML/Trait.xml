@@ -4,9 +4,9 @@
 	<!--Core Definitions-->
 	<Traits>
 		<Row>
-			<Type>TRAIT_RIVER_EXPANSION</Type>
-			<Description>TXT_KEY_TRAIT_RIVER_EXPANSION</Description>
-			<ShortDescription>TXT_KEY_TRAIT_RIVER_EXPANSION_SHORT</ShortDescription>
+			<Type>TRAIT_MANNCONOMY</Type>
+			<ShortDescription>TXT_KEY_TRAIT_MANNCONOMY</ShortDescription>
+			<Description>TXT_KEY_TRAIT_MANNCONOMY_DESC</Description>
 			<LevelExperienceModifier>0</LevelExperienceModifier>
 			<GreatPeopleRateModifier>0</GreatPeopleRateModifier>
 			<GreatScientistRateModifier>0</GreatScientistRateModifier>
@@ -103,7 +103,13 @@
 	<!--<Trait_ExtraYieldThresholds>-->
 
 	<!--Yield Changes-->
-	<!--<Trait_YieldChanges>-->
+	<Trait_YieldChangesStrategicResources>
+		<Row>
+			<TraitType>TRAIT_MANNCONOMY</TraitType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Trait_YieldChangesStrategicResources>
 	
 	<!--Yield Modifiers-->
 	<!--<Trait_YieldModifiers>-->
@@ -124,43 +130,7 @@
 	<!--<Trait_FreePromotions>-->
 
 	<!--Free Combat Unit Promotions-->
-	<Trait_FreePromotionUnitCombats>
-		<Row>
-			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
-			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-			<PromotionType>PROMOTION_SENTRY</PromotionType>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
-			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-			<PromotionType>PROMOTION_SENTRY</PromotionType>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
-			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-			<PromotionType>PROMOTION_SENTRY</PromotionType>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
-			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-			<PromotionType>PROMOTION_SENTRY</PromotionType>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
-			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-			<PromotionType>PROMOTION_SENTRY</PromotionType>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
-			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
-			<PromotionType>PROMOTION_SENTRY</PromotionType>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
-			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
-			<PromotionType>PROMOTION_SENTRY</PromotionType>
-		</Row>
-	</Trait_FreePromotionUnitCombats>
+	<!--<Trait_FreePromotionUnitCombats>-->
 
 	<!--Combat Unit Movement Change-->
 	<!--<Trait_MovesChangeUnitCombats>-->
@@ -175,7 +145,23 @@
 	<!--<Trait_NoTrain>-->
 
 	<!--Resource Quantity Change-->
-	<!--<Trait_ResourceQuantityModifiers>-->
+	<Trait_ResourceQuantityModifiers>
+		<Row>
+			<TraitType>TRAIT_MANNCONOMY</TraitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_MANNCONOMY</TraitType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_MANNCONOMY</TraitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+	</Trait_ResourceQuantityModifiers>
 
 	<!--Free Resources in first X cities-->
 	<!--<Trait_FreeResourceFirstXCities>-->
